@@ -1,0 +1,1 @@
+FROM blockfoundation/ethereum-solidity-devcontainer:latest
