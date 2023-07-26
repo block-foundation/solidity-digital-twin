@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "JuanBlanco.solidity",
+        "ms-vscode-remote.remote-containers"
+    ],
+    "unwantedRecommendations": []
+}
