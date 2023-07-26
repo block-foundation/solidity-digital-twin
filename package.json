@@ -1,6 +1,6 @@
 {
-  "name": "solidity-architecture-competition",
-  "description": "Architecture Competition",
+  "name": "solidity-digital-twin",
+  "description": "Digital Twin",
   "author": "Stichting Block Foundation",
   "version": "0.0.1",
   "license": "Apache-2.0",
@@ -9,13 +9,13 @@
     "blockchain",
     "architecture"
   ],
-  "homepage": "https://github.com/block-foundation/solidity-architecture-competition#readme",
+  "homepage": "https://github.com/block-foundation/solidity-digital-twin#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/block-foundation/solidity-architecture-competition.git"
+    "url": "git+https://github.com/block-foundation/solidity-digital-twin.git"
   },
   "bugs": {
-    "url": "https://github.com/block-foundation/solidity-architecture-competition/issues"
+    "url": "https://github.com/block-foundation/solidity-digital-twin/issues"
   },
   "main": "index.ts",
   "scripts": {
