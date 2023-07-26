@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-title: solidity-architecture-competition
+title: solidity-digital-twin
 version: 0.0.1
 date-released: 2023-07-01
-url: "https://github.com/block-foundation/solidity-architecture-competition"
+url: "https://github.com/block-foundation/solidity-digital-twin"
 message: >-
   If you use this software, please cite it using
   the metadata from this file.
