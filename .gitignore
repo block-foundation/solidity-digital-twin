@@ -1,0 +1,43 @@
+# Block Foundation .gitignore
+# v0.0.3
+
+# General
+.DS_Store
+tmp/
+
+# Environments
+.env
+*.env
+.venv
+venv/
+env.bak/
+venv.bak/
+
+# C
+*.o
+*.so
+*.bin
+
+# Node
+node_modules
+node_modules/
+npm-debug.log
+components
+manifest.json
+coverage
+coverage.json
+
+# Hardhat files
+cache_hardhat/
+artifacts/
+cache
+artifacts
+
+# Hardhat plugin files
+typechain
+typechain-types
+typechain-types/
+
+# Hardhat temporary
+/.openzeppelin/
+/broadcast
