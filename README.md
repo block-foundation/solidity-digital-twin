@@ -38,7 +38,7 @@
 
 ## Introduction
 
-This Building Digital Twin Smart Contract is a sophisticated piece of software, written in Solidity for the Ethereum blockchain, that creates a digital representation of a physical building. The digital twin concept is an important aspect of modern construction and building management as it allows for real-time monitoring, predictive maintenance, and simulations of different scenarios.
+This Building Digital Twin Smart Contract creates a digital representation of a physical building. The digital twin concept is an important aspect of modern construction and building management as it allows for real-time monitoring, predictive maintenance, and simulations of different scenarios.
 
 This smart contract utilizes Chainlink, a decentralized oracle network, to securely retrieve and write real-world data onto the blockchain. The parameters fetched include environmental aspects such as temperature and humidity, occupancy levels, energy and water consumption levels, and air quality data. It also considers the structural health of the building, providing a comprehensive digital overview of the physical building's state.
 
@@ -47,8 +47,6 @@ Moreover, the contract allows the owner to log maintenance reports, thereby enab
 With the use of modifiers, this contract ensures that only the owner of the contract can update the parameters and add maintenance reports, providing a robust access control mechanism.
 
 This contract is an example of the versatility and potential of Ethereum smart contracts, and how they can interface with real-world data via oracles. By using this, building owners, management, and residents could have a clearer picture of the building's condition, maintenance needs, and usage patterns in real-time.
-
-However, as with any smart contract, it's important to remember that deploying and interacting with this contract involves the use of real digital assets (Ether and LINK tokens in this case). So it is crucial to ensure thorough testing and auditing before deploying onto the Ethereum mainnet.
 
 ## Quick Start
 
