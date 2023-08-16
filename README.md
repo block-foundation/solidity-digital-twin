@@ -36,6 +36,8 @@
 
 </div>
 
+**This repository contains a smart contract for a Digital Twin of a building, which fetches real-time data using Chainlink Oracles. This data includes temperature, humidity, occupancy, energy consumption, structural health, water consumption, and air quality. Additionally, the contract allows for the logging of maintenance reports.**
+
 ## Introduction
 
 This Building Digital Twin Smart Contract creates a digital representation of a physical building. The digital twin concept is an important aspect of modern construction and building management as it allows for real-time monitoring, predictive maintenance, and simulations of different scenarios.
@@ -62,8 +64,58 @@ npm i
 npm run compile
 ```
 
-## Contract
+## Features
 
+- **Real-time Building Data**: Use Chainlink Oracles to fetch and update building parameters.
+- **Maintenance Reports**: Log and retrieve maintenance activities and timestamps.
+- **Owner Only Actions**: Restricted access functions for the building owner to maintain control over data and settings.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [Truffle](https://www.trufflesuite.com/)
+- [Ethereum Wallet](https://metamask.io/): For interacting with the deployed contract.
+- [Chainlink Node](https://docs.chain.link/docs/running-a-chainlink-node): If you want to run your own oracle.
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-repository-link.git
+```
+
+2. Navigate to the repository folder:
+
+```bash
+cd path-to-folder
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+## Usage
+
+1. Deploy the contract:
+
+```bash
+truffle migrate --network desired_network
+```
+
+2. Interact with the contract functions using your preferred method (Truffle console, web interface, etc.).
+
+## Testing
+
+1. To run tests:
+
+```bash
+truffle test
+```
+
+2. Ensure all tests pass and verify the coverage report.
 
 ## Development Resources
 
@@ -82,7 +134,6 @@ npm run compile
 | **Rent-to-Own**                   | [**>>>**](https://github.com/block-foundation/solidity-rent-to-own) | [**>>>**](https://github.com/block-foundation/teal-rent-to-own) |
 | **Self-Owning Building**          | [**>>>**](https://github.com/block-foundation/solidity-self-owning-building) | [**>>>**](https://github.com/block-foundation/teal-self-owning-building) |
 | **Smart Home**                    | [**>>>**](https://github.com/block-foundation/solidity-smart-home) | [**>>>**](https://github.com/block-foundation/teal-smart-home) |
-
 
 ---
 
